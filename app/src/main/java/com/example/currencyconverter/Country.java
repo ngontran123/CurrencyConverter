@@ -8,7 +8,6 @@ public class Country {
     public ArrayList<String> titles=new ArrayList<>();
     public  ArrayList<String> descriptions=new ArrayList<>();
     public String category;
-    public ArrayList<String> links=new ArrayList<>();
     public ArrayList<String> getTitles() {
         return titles;
     }
@@ -22,14 +21,6 @@ public class Country {
     }
     public void setDescriptions(ArrayList<String> descriptions) {
         this.descriptions = descriptions;
-    }
-    public ArrayList<String> getLinks()
-    {
-        return links;
-    }
-    public void setLinks(ArrayList<String> links)
-    {
-        this.links=links;
     }
     public String getCategory()
     {
